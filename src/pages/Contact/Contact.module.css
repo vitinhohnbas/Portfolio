@@ -1,0 +1,79 @@
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #c7c7c7;
+    height: auto;
+    border-radius: 0.6rem;
+    padding: 4%;
+}
+
+.contact input{
+    background-color: transparent;
+    border: 1px solid #c7c7c7;
+    padding: 5%;
+    margin-bottom: 3%;
+    border-radius: 0.6rem;
+    width: 100%;
+}
+.contact textarea{
+    background-color: transparent;
+    border: 1px solid #c7c7c7;
+    padding: 5%;
+    margin-bottom: 3%;
+    border-radius: 0.6rem;
+    width: 100%;
+}
+.contact .buttonsHome{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    border: 1px solid #c7c7c7;
+    padding: 5%;
+    margin-bottom: 3%;
+    border-radius: 0.6rem;
+    font-weight: 600;
+    width: 100%;
+}
+.contact .buttonsHome:hover{
+    background-color: #c7c7c7;
+}
+.contact .buttonSend{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    border: 1px solid #08a124;
+    color: #08a124;
+    padding: 5%;
+    margin-bottom: 3%;
+    border-radius: 0.6rem;
+    font-weight: 600;
+    width: 100%;
+    transition: 0.2s;
+}
+.contact .buttonSend:hover{
+    background-color: #08a1241a;
+    transition: 0.2s;
+}
+.contact .buttonBack{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    border: 1px solid #c7c7c7;
+    padding: 5%;
+    margin-bottom: 3%;
+    border-radius: 0.6rem;
+    font-weight: 600;
+    width: 100%;
+    color: #0d6efd;
+    border: 1px solid #0d6efd;
+    transition: 0.2s;
+}
+.contact .buttonBack:hover{
+    background-color: #0d6dfd1f;
+    transition: 0.2s;
+}
