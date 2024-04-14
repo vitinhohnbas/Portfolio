@@ -1,0 +1,20 @@
+.nf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.nf h1{
+    color:#df7a5e ;
+    font-size: 5em;
+}
+.nf p{
+    color: #888888;
+    margin-bottom: 5%;
+}
+.nf a{
+    color: #e3e3e3;
+}
+.nf a:hover{
+    text-decoration: underline;
+}
