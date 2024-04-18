@@ -1,0 +1,31 @@
+{
+    "publications": [
+        {
+            "id":1,
+            "titulo": "Posts com imagens.",
+            "data": "017/04/2024",
+            "desc": "Agora os posts podem possuir imagens.",
+            "extendedDesc": "Fiz uma atualização em meu portfolio, aonde os jsons como data, agora armazenam imagens para inserir nos posts também. Isso irá ser útil em casos de compartilhação de projetos pessoais, ou algum tutorial interessante que gostaria de informar para vocês.",
+            "tags":["Atualização"],
+            "imgs":["https://cdn.discordapp.com/attachments/1216141975334551702/1230288565511000064/Captura_de_tela_2024-04-14_161541.png?ex=6632c683&is=66205183&hm=7554af5f04b17f3c3e17eaea6b4318615f59c836fdfda8e8b9c3135a4ec9cc44&"]
+        },
+        {
+            "id":2,
+            "titulo": "Primeiro contato com Next.js",
+            "data": "07/04/2024",
+            "desc": "Recentemente, começei meu primeiro projeto com Next.js, website de criação de outros e-commerce.",
+            "extendedDesc": "Estamos empolgados em compartilhar que estamos atualmente imersos em um novo projeto emocionante! Trata-se de um website inovador que visa capacitar os empreendedores a criar seus próprios e-commerces de forma simples e eficaz. Nosso foco principal é garantir uma experiência de usuário excepcional, tornando o processo de configuração e gerenciamento do e-commerce incrivelmente intuitivo e descomplicado. Nossa equipe está empenhada em desenvolver um painel de configuração que seja acessível e fácil de usar, mesmo para aqueles sem experiência técnica prévia. Queremos oferecer uma ampla gama de recursos personalizáveis, permitindo que os usuários moldem seus e-commerces de acordo com suas necessidades e visão única. Acreditamos firmemente que a tecnologia deve ser uma aliada na jornada empreendedora, e nosso objetivo é capacitar indivíduos e pequenas empresas a alcançarem seu potencial máximo no mundo do comércio eletrônico. Mal podemos esperar para compartilhar mais detalhes sobre esse emocionante projeto à medida que avançamos em sua realização!",
+            "tags":["Inovação", "Projeto"],
+            "imgs":[]
+        },
+        {
+            "id":3,
+            "titulo": "Primeira postagem!",
+            "data": "06/04/2024",
+            "desc": "Esta é minha primeira postagem do blog.",
+            "extendedDesc": "Estou feliz em anunciar que finalizei meu novo portfólio! Este é o primeiro de muitos posts que pretendo compartilhar. Mal posso esperar para mostrar meu trabalho e continuar crescendo nesta jornada profissional.",
+            "tags":["Apresentação", "Blog"],
+            "imgs":[]
+        }
+    ]
+}

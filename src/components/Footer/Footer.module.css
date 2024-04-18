@@ -1,0 +1,30 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1%;
+    border-top: 1px solid #333333;
+}
+
+footer h1{
+    color: #df7a5e;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+footer .divIconsFooter{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 10em;
+}
+
+@media screen and (max-width: 1000px) {
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3%;
+        border-top: 1px solid #333333;
+    }
+}
