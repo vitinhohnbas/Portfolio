@@ -6,8 +6,13 @@ import { useEffect } from 'react';
 import user from '../../assets/images.PNG'
 import cycle from '../../assets/cycle.png'
 import miniblog from '../../assets/miniblog.png'
+import hospitalvp from '../../assets/hospitalvp.png'
 
 const Home = () => {
+  const handleVP = () =>{
+    window.location.href = 'https://github.com/vhnb/project-school-hospital'
+  }
+  
   const handleCycle = () =>{
     window.location.href = 'https://www.cycleutilities.store/'
   }
@@ -53,6 +58,18 @@ const Home = () => {
       <section className={styles.divProjects}>
         <h1>Projetos 📂</h1>
         <p>Uma coleção de meus projetos</p>
+        <div onClick={handleVP} className={styles.containerProjects}>
+          <img src={hospitalvp}  alt='Hospital Vida Plena'/>
+          <div className={styles.divTextProjects}>
+            <h1>Projeto escolar com Node.js 🔗</h1>
+            <p>Projeto de um painel de controle que desenvolvi com meu primeiro contato em Node.js</p>
+            <ul>
+              <li>Node.js</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+        </div>
         <div onClick={handleCycle} className={styles.containerProjects}>
           <img src={cycle}  alt='Cycle Utilities'/>
           <div className={styles.divTextProjects}>
