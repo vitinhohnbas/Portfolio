@@ -4,7 +4,7 @@
             "id":1,
             "titulo": "Projeto escolar com Node.js!",
             "data": "20/04/2024",
-            "desc": "Primeiro contato com Node.ja",
+            "desc": "Primeiro contato com Node.js",
             "extendedDesc": "Desenvolvi um projeto sobre um hospital, que simula um painel de controle, aonde o usuário pode adicionar medicamentos e pacientes, buscar entre eles e ver a lista completa de todos os itens. Este projeto é uma prova escolar, e fico feliz em compartilhar neste blog.",
             "tags":["Aprendendo", "Node.js"],
             "imgs":["https://i.ibb.co/1ZJ80DC/Captura-de-tela-2024-04-20-095033.png", "https://i.ibb.co/vkPrbCs/Captura-de-tela-2024-04-20-095038.png", "https://i.ibb.co/hct3Qs3/Captura-de-tela-2024-04-20-095044.png", "https://i.ibb.co/9HrQ8H7/Captura-de-tela-2024-04-20-095050.png"]
