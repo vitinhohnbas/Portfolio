@@ -8,6 +8,7 @@ import cycle from '../../assets/cycle.png'
 import miniblog from '../../assets/miniblog.png'
 import hospitalvp from '../../assets/hospitalvp.png'
 import tarefasPlus from '../../assets/tarefas+.png'
+import shary from '../../assets/shary.png'
 
 const Home = () => {
   const handleVP = () =>{
@@ -25,7 +26,10 @@ const Home = () => {
   const handleTarefas = () =>{
     window.location.href = 'https://github.com/vhnb/tarefas-plus'
   }
-  
+
+  const handleShary = () =>{
+    window.location.href = 'https://sharyshare.vercel.app/'
+  }
 
   useEffect(() => {
     const container = document.querySelector(`.${styles.containerUser}`)
@@ -64,6 +68,18 @@ const Home = () => {
       <section className={styles.divProjects}>
         <h1>Projetos 📂</h1>
         <p>Uma coleção de meus projetos</p>
+        <div onClick={handleShary} className={styles.containerProjects}>
+          <img src={shary}  alt='Tarefas +'/>
+          <div className={styles.divTextProjects}>
+            <h1>Compartilhe seus links 🔗</h1>
+            <p>Compartilhe seus links com seus amigos, Share with shary.</p>
+            <ul>
+              <li>Next.js</li>
+              <li>Firebase</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+        </div>
         <div onClick={handleTarefas} className={styles.containerProjects}>
           <img src={tarefasPlus}  alt='Tarefas +'/>
           <div className={styles.divTextProjects}>
