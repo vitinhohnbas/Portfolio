@@ -75,6 +75,7 @@ const Home = () => {
             <p>Compartilhe seus links com seus amigos, Share with shary.</p>
             <ul>
               <li>Next.js</li>
+              <li>Typescript</li>
               <li>Firebase</li>
               <li>CSS</li>
             </ul>
@@ -87,6 +88,7 @@ const Home = () => {
             <p>To-do-list que fiz com Next.js, com funcionalidades exclusivas</p>
             <ul>
               <li>Next.js</li>
+              <li>Typescript</li>
               <li>Firebase</li>
               <li>CSS</li>
             </ul>
