@@ -20,6 +20,11 @@ const Home = () => {
   const handleBlog = () =>{
     window.location.href = 'https://github.com/vitinhohnbas/projeto_blog_react'
   }
+  
+  const handleTarefas = () =>{
+    window.location.href = 'https://github.com/vhnb/tarefas-plus'
+  }
+  
 
   useEffect(() => {
     const container = document.querySelector(`.${styles.containerUser}`)
@@ -58,6 +63,18 @@ const Home = () => {
       <section className={styles.divProjects}>
         <h1>Projetos 📂</h1>
         <p>Uma coleção de meus projetos</p>
+        <div onClick={handleTarefas} className={styles.containerProjects}>
+          <img src={hospitalvp}  alt='Tarefas +'/>
+          <div className={styles.divTextProjects}>
+            <h1>Projeto pessoal com Next.js 🔗</h1>
+            <p>To-do-list que fiz com Next.js, com funcionalidades exclusivas</p>
+            <ul>
+              <li>Next.js</li>
+              <li>Firebase</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+        </div>
         <div onClick={handleVP} className={styles.containerProjects}>
           <img src={hospitalvp}  alt='Hospital Vida Plena'/>
           <div className={styles.divTextProjects}>
