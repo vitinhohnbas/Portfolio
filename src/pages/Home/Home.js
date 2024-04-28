@@ -7,6 +7,7 @@ import user from '../../assets/images.PNG'
 import cycle from '../../assets/cycle.png'
 import miniblog from '../../assets/miniblog.png'
 import hospitalvp from '../../assets/hospitalvp.png'
+import tarefasPlus from '../../assets/tarefas+.png'
 
 const Home = () => {
   const handleVP = () =>{
@@ -64,7 +65,7 @@ const Home = () => {
         <h1>Projetos 📂</h1>
         <p>Uma coleção de meus projetos</p>
         <div onClick={handleTarefas} className={styles.containerProjects}>
-          <img src={hospitalvp}  alt='Tarefas +'/>
+          <img src={tarefasPlus}  alt='Tarefas +'/>
           <div className={styles.divTextProjects}>
             <h1>Projeto pessoal com Next.js 🔗</h1>
             <p>To-do-list que fiz com Next.js, com funcionalidades exclusivas</p>
