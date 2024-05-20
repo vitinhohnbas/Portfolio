@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa6";
 
 const Footer = () => {
   const handleGithub = () =>{
-    window.location.href = 'https://github.com/vitinhohnbas'
+    window.location.href = 'https://github.com/vhnb'
   }
 
   const handleLinkedin = () =>{
