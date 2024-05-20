@@ -61,7 +61,7 @@ const Home = () => {
           <h1>👋 Olá, meu nome é</h1>
           <h2>Victor Henrique</h2>
           <h3>Sou um programador front-end em constante busca por evolução. Com uma sólida experiência nesse campo, meu objetivo é sempre entregar projetos com qualidade e eficiência.</h3>
-          <p>Me encontre no <a href='https://www.linkedin.com/in/victor-henrique-405618284/' target='blank'>Linkedin 🔗</a> ou no <a href='https://github.com/vitinhohnbas' target='blank'>GitHub 🔗</a></p>
+          <p>Me encontre no <a href='https://www.linkedin.com/in/victor-henrique-405618284/' target='blank'>Linkedin 🔗</a> ou no <a href='https://github.com/vhnb' target='blank'>GitHub 🔗</a></p>
         </div>
         <img src={user} alt='Minha foto'/>
       </main>
