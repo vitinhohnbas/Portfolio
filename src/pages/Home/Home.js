@@ -9,6 +9,7 @@ import miniblog from '../../assets/miniblog.png'
 import hospitalvp from '../../assets/hospitalvp.png'
 import tarefasPlus from '../../assets/tarefas+.png'
 import shary from '../../assets/shary.png'
+import polygon from '../../assets/shary.png'
 
 const Home = () => {
   const handleVP = () =>{
@@ -29,6 +30,10 @@ const Home = () => {
 
   const handleShary = () =>{
     window.location.href = 'https://sharyshare.vercel.app/'
+  }
+
+  const handlePolygon = () =>{
+    window.location.href = 'https://github.com/vhnb/polygon-maker-store'
   }
 
   useEffect(() => {
@@ -68,6 +73,19 @@ const Home = () => {
       <section className={styles.divProjects}>
         <h1>Projetos 📂</h1>
         <p>Uma coleção de meus projetos</p>
+        <div onClick={handlePolygon} className={styles.containerProjects}>
+          <img src={polygon}  alt='Polygon'/>
+          <div className={styles.divTextProjects}>
+            <h1>Compartilhe seus links 🔗</h1>
+            <p>Dashboard para criação da sua própria loja.</p>
+            <ul>
+              <li>Next.js</li>
+              <li>Typescript</li>
+              <li>Firebase</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+        </div>
         <div onClick={handleShary} className={styles.containerProjects}>
           <img src={shary}  alt='Tarefas +'/>
           <div className={styles.divTextProjects}>
