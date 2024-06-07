@@ -9,7 +9,7 @@ import miniblog from '../../assets/miniblog.png'
 import hospitalvp from '../../assets/hospitalvp.png'
 import tarefasPlus from '../../assets/tarefas+.png'
 import shary from '../../assets/shary.png'
-import polygon from '../../assets/shary.png'
+import polygon from '../../assets/polygon.png'
 
 const Home = () => {
   const handleVP = () =>{
