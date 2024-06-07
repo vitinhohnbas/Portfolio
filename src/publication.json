@@ -2,6 +2,15 @@
     "publications": [
         {
             "id":1,
+            "titulo": "Confira meu novo projeto de dashboard!",
+            "data": "7/06/2024",
+            "desc": "Projeto dashboard e-commerce",
+            "extendedDesc": "Acabei de terminar meu novo projeto de gerenciamento de sua loja pessoal, crie produtos, configure sua loja e compartilhe-a com seus amigos",
+            "tags":["Novo", "Typescript"],
+            "imgs":[]
+        },
+        {
+            "id":2,
             "titulo": "Projeto de gerenciamento de hospital atualizado!",
             "data": "15/05/2024",
             "desc": "Projeto hospital atualizado.",
@@ -10,7 +19,7 @@
             "imgs":[]
         },
         {
-            "id":2,
+            "id":3,
             "titulo": "Projeto escolar com Node.js!",
             "data": "20/04/2024",
             "desc": "Primeiro contato com Node.js",
@@ -19,7 +28,7 @@
             "imgs":["https://i.ibb.co/1ZJ80DC/Captura-de-tela-2024-04-20-095033.png", "https://i.ibb.co/vkPrbCs/Captura-de-tela-2024-04-20-095038.png", "https://i.ibb.co/hct3Qs3/Captura-de-tela-2024-04-20-095044.png", "https://i.ibb.co/9HrQ8H7/Captura-de-tela-2024-04-20-095050.png"]
         },
         {
-            "id":3,
+            "id":4,
             "titulo": "Posts com imagens.",
             "data": "17/04/2024",
             "desc": "Agora os posts podem possuir imagens.",
@@ -28,7 +37,7 @@
             "imgs":["https://i.ibb.co/g6TJHLG/Captura-de-tela-2024-04-14-161541.png"]
         },
         {
-            "id":4,
+            "id":5,
             "titulo": "Primeiro contato com Next.js",
             "data": "07/04/2024",
             "desc": "Recentemente, começei meu primeiro projeto com Next.js, website de criação de outros e-commerce.",
@@ -37,7 +46,7 @@
             "imgs":[]
         },
         {
-            "id":5,
+            "id":6,
             "titulo": "Primeira postagem!",
             "data": "06/04/2024",
             "desc": "Esta é minha primeira postagem do blog.",
