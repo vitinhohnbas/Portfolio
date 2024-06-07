@@ -76,7 +76,7 @@ const Home = () => {
         <div onClick={handlePolygon} className={styles.containerProjects}>
           <img src={polygon}  alt='Polygon'/>
           <div className={styles.divTextProjects}>
-            <h1>Compartilhe seus links 🔗</h1>
+            <h1>Criação e-commerce 🔗</h1>
             <p>Dashboard para criação da sua própria loja.</p>
             <ul>
               <li>Next.js</li>
